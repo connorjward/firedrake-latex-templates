@@ -38,7 +38,12 @@
 	}{ % 16:9 aspect ratio
 		\includegraphics[width=5cm]{#1} % Logo
 	}
-	
+
+	% Firedrake logo
+	\begin{tikzpicture}[overlay,xshift=13.75cm,yshift=.5cm]
+	    \draw (0, 0) node[inner sep=0] {\includegraphics[width=2cm]{firedrake}};
+	\end{tikzpicture}
+
 	\vfill\vfill\vfill\vfill\vfill\vfill\vfill\vfill % Automatic vertical whitespace
 	
 	\begin{beamercolorbox}[wd=\textwidth]{title page title}
